@@ -202,11 +202,22 @@
   .sw-badge.ae { background: #9999ff; }
   .sw-badge.pr { background: #ea77ff; }
   .sw-badge.id { background: #ff3366; }
+  .software-block { margin-bottom: 0; }
+
   .sw-icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-}
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    transition: transform 0.2s;
+  }
+  .sw-icon:hover { transform: translateY(-3px); }
+
+  .sw-ai { border-color: #ff7c00; }
+  .sw-ps { border-color: #31a8ff; }
+  .sw-ae { border-color: #9999ff; }
+  .sw-pr { border-color: #ea77ff; }
+  .sw-id { border-color: #ff3366; }
 
   .skills-list { list-style: none; }
   .skills-list li {
